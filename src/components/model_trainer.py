@@ -133,7 +133,6 @@ class ModelTrainer:
 
             save_object(
                 file_path=self.model_trainer_config.trained_model_file_path,
-                obj=er
             )
             logging.info('Model pickle file saved')
             # Evaluating Ensemble Regressor (Voting Classifier on test data)
